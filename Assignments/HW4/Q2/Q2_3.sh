@@ -1,0 +1,2 @@
+python train.py --data_path data/xsum_train.txt --val_data_path data/xsum_train.txt --embed_file None --n_val_batches 10 --model_path_prefix checkpoints/q2_3 --attn_type cosine_and_weight
+python test.py --model checkpoints/q2_3.10.pt --test_data_path data/xsum_test.txt --test_gen_path ../generations/RNN_cosine_and_weight.txt

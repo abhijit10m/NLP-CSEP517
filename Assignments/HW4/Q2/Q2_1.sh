@@ -1,0 +1,2 @@
+python train.py --data_path data/xsum_train.txt --val_data_path data/xsum_train.txt --embed_file None  --n_val_batches 10 --model_path_prefix checkpoints/q2_1 --attn_type dot
+python test.py --model checkpoints/q2_1.10.pt --test_data_path data/xsum_test.txt --test_gen_path ../generations/RNN_dot.txt
