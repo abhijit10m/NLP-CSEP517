@@ -1,2 +1,0 @@
-python train.py --data_path data/xsum_train.txt --val_data_path data/xsum_train.txt --embed_file None --n_val_batches 10 --model_path_prefix checkpoints/q2_2 --attn_type cosine_bias
-python test.py --model checkpoints/q2_2.10.pt --test_data_path data/xsum_test.txt --test_gen_path ../generations/RNN_cosine_bias.txt
